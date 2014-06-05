@@ -1,0 +1,30 @@
+{
+	"name": "NodeIRC",
+	"version": "0.1",
+	"description": "A standalone NodeIRC module with web widgets built in.",
+	"keywords": [
+    	"irc",
+	    "chat",
+	    "widget",
+	    "html5"
+	],
+	"author": {
+		"name": "Tyler Scott",
+		"email": "tyduptyler13@myuplay.com",
+		"url": "http://myuplay.com"
+	},
+	"main": "Server.js",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/MyUPlay/NodeIRC.git"
+	},
+	"scripts": {
+		"start": "node Server.js"
+	},
+	"config": {
+		"port": 9999
+	},
+	"dependencies": {
+		"socket.io": "~1.0"
+	}
+}
