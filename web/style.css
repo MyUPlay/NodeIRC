@@ -1,0 +1,65 @@
+html,body {
+	margin: 0;
+	width: 100%;
+	height: 100%;
+	background-color: black;
+}
+
+h1{
+	margin: auto;
+}
+
+#chatWrapper>div {
+	display: block;
+}
+
+#chatWrapper>div>div {
+	display: inline-block;
+}
+
+#chatWrapper {
+	width: 99%;
+	height: 99%;
+	margin: auto;
+}
+
+#chatArea {
+	background-color: white;
+	border-radius: 10px;
+	min-height: 300px;
+	min-width: 500px;
+	width: 80%;
+	height: 100%;
+}
+
+#userArea {
+	background-color: gray;
+	border-radius: 5px;
+	width: 19%;
+	height: 100%;
+}
+
+#entryArea {
+	background-color: white;
+	border-radius: 5px;
+	min-width: 500px;
+	width: 80%;
+	height: 30px;
+}
+
+#sendButton {
+	color: white;
+	background-color: gray;
+	padding: 3px;
+	border-radius: 3px;
+	border: white thin outset;
+	width: 10%;
+}
+
+#sendButton:hover {
+	cursor: pointer;
+}
+
+#sendButton:active {
+	border-style: inset;
+}
